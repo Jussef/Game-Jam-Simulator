@@ -29,20 +29,25 @@ public class CharacterChose : MonoBehaviour, IPointerClickHandler
     {
         bool outline = gameObject.GetComponentInChildren<Outline>().enabled;
         gameObject.GetComponentInChildren<Outline>().enabled = !outline;
-        int iContador = int.Parse(contador.GetComponent<Text>().text);
-        iContador++;
-        if (iContador < 2)
-            contador.GetComponent<Text>().text = iContador + "";
-        else {
-            panel.SetActive(true);
-            int i = 0;
-            foreach (GameObject imagen in imagenes)
+
+        if(gameObject.GetComponentInChildren<Outline>().enabled)
+        {
+            int iContador = int.Parse(contador.GetComponent<Text>().text);
+            iContador++;
+            if (iContador < 2)
+                contador.GetComponent<Text>().text = iContador + "";
+            else
             {
-                if (imagen.GetComponentInChildren<Outline>().enabled)
+                panel.SetActive(true);
+                int i = 0;
+                foreach (GameObject imagen in imagenes)
                 {
-                    elegidos[i].GetComponent<Image>().sprite = imagen.GetComponent<Image>().sprite;
-                    elegidos[i].transform.Find("Text").GetComponent<Text>().text = miembros[Random.Range(0,2)];
-                    i++;
+                    if (imagen.GetComponentInChildren<Outline>().enabled)
+                    {
+                        elegidos[i].GetComponent<Image>().sprite = imagen.GetComponent<Image>().sprite;
+                        elegidos[i].transform.Find("Text").GetComponent<Text>().text = miembros[Random.Range(0, 2)];
+                        i++;
+                    }
                 }
             }
         }
