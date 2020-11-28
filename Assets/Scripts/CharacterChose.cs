@@ -11,7 +11,7 @@ public class CharacterChose : MonoBehaviour, IPointerClickHandler
     [SerializeField] private List<GameObject> imagenes;
     [SerializeField] private List<GameObject> elegidos;
 
-    private List<string> miembros = new List<string>() { "Programador(a)", "Diseñador(a)", "Musico(a)" };
+    private List<string> miembros = new List<string>() { "Programador", "Diseñador", "Musico" };
 
     // Start is called before the first frame update
     void Start()
