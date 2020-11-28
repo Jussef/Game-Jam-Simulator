@@ -6,26 +6,25 @@ public class Pregunta{
   public string pregunta;
   private string _preguntaOriginal;
   int espacios;
-  List<string> respuestasElegidas;
+  List<Respuesta> respuestasElegidas;
   public Pregunta(string pregunta, int espacios){
     this.pregunta = pregunta;
     this._preguntaOriginal = pregunta;
     this.espacios = espacios;
-    this.respuestasElegidas = new List<string>();
+    this.respuestasElegidas = new List<Respuesta>();
   }
 
-  public void AgregarRespuesta(string respuesta){
+  public void AgregarRespuesta(Respuesta respuesta){
+    
     this.respuestasElegidas.Add(respuesta);
     int i = this.pregunta.IndexOf("______");
-    MonoBehaviour.print($"pregunta 1: {this.pregunta}");
     this.pregunta = this.pregunta.Remove(i,6);
-    MonoBehaviour.print($"pregunta 2: {this.pregunta}");
-    this.pregunta = this.pregunta.Insert(i,respuesta);
-    MonoBehaviour.print($"pregunta 3: {this.pregunta}");
+    this.pregunta = this.pregunta.Insert(i,respuesta.respuesta);
   }
 
   public void Reiniciar(){
     this.pregunta = _preguntaOriginal;
+    this.respuestasElegidas.Clear();
   }
 
   public bool EstaCompleta(){

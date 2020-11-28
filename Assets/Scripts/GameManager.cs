@@ -7,10 +7,12 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     public Text respuestaText;
+    public Text puntajeText;
     List<Pregunta> preguntas;
     int preguntaActual;
     bool finalizado;
     bool habilitarClick;
+    float puntajeTotal;
 
     // Start is called before the first frame update
     void Start()
@@ -25,10 +27,12 @@ public class GameManager : MonoBehaviour
         finalizado = false;
         ActualizarText();
         habilitarClick = true;
+        puntajeTotal = 0;
     }
 
-    public void RecibirRespuesta(string respuesta){
+    public void RecibirRespuesta(Respuesta respuesta){
         habilitarClick = false;
+        puntajeTotal += respuesta.puntaje;
         preguntas[preguntaActual].AgregarRespuesta(respuesta);
         if (preguntas[preguntaActual].EstaCompleta()){
             
@@ -44,6 +48,7 @@ public class GameManager : MonoBehaviour
 
     void ActualizarText(){
         respuestaText.text = preguntas[preguntaActual].pregunta;
+        puntajeText.text = $"Puntos: {puntajeTotal}";
     }
 
     Pregunta DarPreguntaActual(){
