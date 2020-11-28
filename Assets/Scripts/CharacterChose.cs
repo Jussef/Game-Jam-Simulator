@@ -29,10 +29,10 @@ public class CharacterChose : MonoBehaviour, IPointerClickHandler
     {
         bool outline = gameObject.GetComponentInChildren<Outline>().enabled;
         gameObject.GetComponentInChildren<Outline>().enabled = !outline;
+        int iContador = int.Parse(contador.GetComponent<Text>().text);
 
-        if(gameObject.GetComponentInChildren<Outline>().enabled)
+        if (gameObject.GetComponentInChildren<Outline>().enabled)
         {
-            int iContador = int.Parse(contador.GetComponent<Text>().text);
             iContador++;
             if (iContador < 2)
                 contador.GetComponent<Text>().text = iContador + "";
@@ -51,5 +51,12 @@ public class CharacterChose : MonoBehaviour, IPointerClickHandler
                 }
             }
         }
+        else
+        {
+            iContador--;
+            contador.GetComponent<Text>().text = iContador + "";
+        }
+
     }
+
 }
