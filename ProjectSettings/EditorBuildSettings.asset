@@ -6,6 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Inicio.unity
+    guid: b451d73cc318b4f1f975b4f122cf1e1c
+  - enabled: 1
+    path: Assets/Scenes/CharacterChose.unity
+    guid: b05399fc8464d5b45abbaf1058a517fd
+  - enabled: 1
+    path: Assets/Scenes/Partida.unity
+    guid: d1e96a91db2521946b6f650582a7a315
+  - enabled: 1
+    path: Assets/Scenes/FinDeJuego.unity
+    guid: 95c0a1867b3212d45a08c51c5d876c66
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
