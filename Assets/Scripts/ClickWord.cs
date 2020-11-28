@@ -8,17 +8,26 @@ public class ClickWord : MonoBehaviour
 {
     static Respuesta[] palabras = {
         new Respuesta("Anime",30),
-        new Respuesta("Camioneta",45),
+        new Respuesta("Camioneta",25),
         new Respuesta("Bailar",20), 
         new Respuesta("Grito",25), 
         new Respuesta("Alegría",20), 
         new Respuesta("Ego",10),
-        new Respuesta("Bandera",20), 
+        new Respuesta("Banderas",20), 
         new Respuesta("Trampas",30), 
-        new Respuesta("Mario",20), 
-        new Respuesta("Sigilo",20), 
+        new Respuesta("Mario",15), 
+        new Respuesta("Sigilo",15), 
         new Respuesta("Dinero",10), 
-        new Respuesta("Rancho",20)
+        new Respuesta("Rancho",20), 
+        new Respuesta("Disco",20), 
+        new Respuesta("Batman",20), 
+        new Respuesta("Medallas",10), 
+        new Respuesta("Impacto",20), 
+        new Respuesta("Clonar",30), 
+        new Respuesta("Heroe",10), 
+        new Respuesta("Peluche",20), 
+        new Respuesta("Deportes",15), 
+        new Respuesta("Bambu",30)
     };
     static System.Random rand  = new System.Random();
     Transform transform;
