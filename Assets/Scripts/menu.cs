@@ -15,9 +15,9 @@ public class menu : MonoBehaviour
     {
     }
 
-    public void EcsenaJuego()
+    public void EscenaJuego(string nombreScena)
     {
-        SceneManager.LoadScene("CharacterChose");
+        SceneManager.LoadScene(nombreScena); //"CharacterChose"
     }
     
     public void Salir()
