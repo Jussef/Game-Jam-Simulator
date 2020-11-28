@@ -73,6 +73,10 @@ public class GameManager : MonoBehaviour
         habilitarClick = true;
     }
 
+    public void NotificarMovimiento(){
+        habilitarClick = false;
+    }
+
     void ActualizarText(){
         respuestaText.text = preguntas[preguntaActual].pregunta;
         puntajeText.text = $"Puntos: {puntajeTotal}";

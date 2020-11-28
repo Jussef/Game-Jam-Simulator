@@ -1,9 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GenreManager : MonoBehaviour
 {
+    public static GenreManager instance;
     static List<string> generos = new List<string>{
         "Homenaje",
         "Zelda",
@@ -21,9 +23,18 @@ public class GenreManager : MonoBehaviour
 
     public List<GameObject> objGeneros;
 
+    [HideInInspector]
+    public string generoElegido;
+
+    void Awake(){
+        DontDestroyOnLoad(this);
+    }
+
     // Start is called before the first frame update
     void Start()
     {
+        instance = this;
+        generoElegido = null;
         generosSeleccionados = SeleccionarNAleatorios(objGeneros.Count);
         updateText();
     }
@@ -53,5 +64,10 @@ public class GenreManager : MonoBehaviour
             }
         }
         return lista2;
+    }
+
+    public void ElegirGenero(string genero){
+        generoElegido = genero;
+        SceneManager.LoadScene("Partida");
     }
 }

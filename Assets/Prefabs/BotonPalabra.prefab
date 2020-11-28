@@ -213,9 +213,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destino: {x: 0, y: 200}
-  aceleracionRotacion: 12
-  velocidadMovimiento: 0.005
-  numFramesMovimiento: 120
+  aceleracionRotacion: 20
+  velocidadMovimiento: 0.007
+  numFramesMovimiento: 80
 --- !u!1 &7836656067051760436
 GameObject:
   m_ObjectHideFlags: 0
