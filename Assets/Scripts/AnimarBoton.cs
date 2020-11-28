@@ -15,7 +15,6 @@ public class AnimarBoton : MonoBehaviour
     public Vector2 destino;
     Vector2 velocidad;
     bool moverse;
-    const int VUELTAS_TOTALES = 120;
     public float aceleracionRotacion;
     public float velocidadMovimiento;
     public float numFramesMovimiento;
@@ -41,14 +40,15 @@ public class AnimarBoton : MonoBehaviour
       if (moverse){
         rgb.angularVelocity -= aceleracionRotacion;
         ++vueltas;
-        if (vueltas >= VUELTAS_TOTALES){
+        if (vueltas >= numFramesMovimiento){
           Finalizar();
         }
       }
     }
 
     public void MoverseYGirar(){
-      if(!moverse){
+      if(!moverse && GameManager.instance.SePuedeOprimirBoton()){
+        GameManager.instance.NotificarMovimiento();
         moverse = true;
         velocidad = (destino - Vector3To2(transform.localPosition)) * velocidadMovimiento;
         rgb.velocity = velocidad;
@@ -62,6 +62,7 @@ public class AnimarBoton : MonoBehaviour
       transform.localPosition = posicionLocalInicial;
       transform.position = posicionInicial;
       transform.rotation = rotacionInicial;
+      vueltas = 0;
       GetComponent<ClickWord>().EnviarMensajeAlGameManager();
     }
 }
