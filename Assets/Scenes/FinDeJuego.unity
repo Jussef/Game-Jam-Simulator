@@ -1131,7 +1131,6 @@ GameObject:
   m_Component:
   - component: {fileID: 814207795}
   - component: {fileID: 814207794}
-  - component: {fileID: 814207796}
   m_Layer: 0
   m_Name: ScoreManager
   m_TagString: Untagged
@@ -1173,21 +1172,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &814207796
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 814207793}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 556cec4f974a14d06a10cbed5c32b6e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  source: {fileID: 0}
-  over: {fileID: 8300000, guid: 8deb078d0c7014b7796c6b59fdad97d4, type: 3}
-  click: {fileID: 8300000, guid: 70bf3efb4c89941a0835e61bd3234a2d, type: 3}
 --- !u!1 &905523916
 GameObject:
   m_ObjectHideFlags: 0
@@ -1952,7 +1936,7 @@ MonoBehaviour:
         - m_Target: {fileID: 3483259049172692155, guid: 55827cee90c6ff546997bd74e3f96750,
             type: 3}
           m_TargetAssemblyTypeName: menu, Assembly-CSharp
-          m_MethodName: overSound
+          m_MethodName: clickSound
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
