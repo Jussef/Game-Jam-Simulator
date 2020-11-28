@@ -10,8 +10,9 @@ public class CharacterChose : MonoBehaviour, IPointerClickHandler
     public GameObject panel;
     [SerializeField] private List<GameObject> imagenes;
     [SerializeField] private List<GameObject> elegidos;
+    public AudioSource seleccion;
 
-    private List<string> miembros = new List<string>() { "Programador", "Diseñador", "Musico" };
+    private List<string> miembros = new List<string>() { "Programador", "Diseñador", "Musico", "Artista" };
 
     // Start is called before the first frame update
     void Start()
@@ -30,7 +31,7 @@ public class CharacterChose : MonoBehaviour, IPointerClickHandler
         bool outline = gameObject.GetComponentInChildren<Outline>().enabled;
         gameObject.GetComponentInChildren<Outline>().enabled = !outline;
         int iContador = int.Parse(contador.GetComponent<Text>().text);
-
+        seleccion.Play();
         if (gameObject.GetComponentInChildren<Outline>().enabled)
         {
             iContador++;
