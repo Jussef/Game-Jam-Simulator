@@ -92,6 +92,9 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+*.zip
+*.mp4
+*.rar
 
 # Crashlytics generated file
 crashlytics-build.properties
@@ -111,6 +114,9 @@ InitTestScene*.unity
 # Ignore all local history of files
 .history
 .ionide
+
+JuegoDEMO/*
+Windows/*
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos,unity
 
