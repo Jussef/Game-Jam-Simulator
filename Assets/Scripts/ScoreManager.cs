@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class ScoreManager : MonoBehaviour
 {
     public static ScoreManager instance;
+    public AudioSource loser;
+    public AudioSource winer;
 
     public Text textEstatusFinJuego,
                 textNombreGameJam,
@@ -13,6 +16,7 @@ public class ScoreManager : MonoBehaviour
                 textMainPage,
                 textSubPage,
                 textBottomPage;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,7 +30,17 @@ public class ScoreManager : MonoBehaviour
             //textSubPage.text = $"lol";
             textBottomPage.text = gano ? "¡Felicidades ganando en esta gamejam!" : "¡Mejor suerte para la próxima!";
             Destroy(gameManager.gameObject);
+        if (gano)
+        {
+            winer.Play();
+            print(gano);
         }
+        else
+        {
+            loser.Play();
+            print(gano);
+        }
+    }
     }
 
     // Update is called once per frame
