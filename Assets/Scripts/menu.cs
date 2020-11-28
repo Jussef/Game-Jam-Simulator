@@ -17,7 +17,7 @@ public class menu : MonoBehaviour
 
     public void EcsenaJuego()
     {
-        SceneManager.LoadScene("partida");
+        SceneManager.LoadScene("CharacterChose");
     }
     
     public void Salir()
