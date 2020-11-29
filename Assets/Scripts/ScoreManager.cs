@@ -34,6 +34,9 @@ public class ScoreManager : MonoBehaviour
             textBottomPage.text = gano ? "¡Felicidades ganando en esta gamejam!" : "¡Mejor suerte para la próxima!";
             updateSubText();
             //Destroy(gameManager.gameObject);
+        if (GenreManager.instance){
+            textTema.text = $"Genero: {GenreManager.instance.generoElegido}";
+        }
         if (gano)
         {
             winer.Play();
@@ -53,13 +56,15 @@ public class ScoreManager : MonoBehaviour
         
     }
 
+/*
     void OnDestroy(){
         if (GameManager.instance){
             Destroy(GameManager.instance.gameObject);
-            ScoreManager.instance = null;
         }
+        
+        ScoreManager.instance = null;
     }
-
+*/
     public void flechaIzquierda(){
         if (GameManager.instance){
             int sz = GameManager.instance.numeroPreguntas();
@@ -84,6 +89,18 @@ public class ScoreManager : MonoBehaviour
             Pregunta pregunta = GameManager.instance.obtenerPregunta(preguntaActual);
             textSubPage.text = pregunta.pregunta;
         }
+        
+    }
+
+    public void PlayAgain(){
+        GameManager.Reiniciar();
+        Destroy(GameManager.instance.gameObject);
+    }
+
+    public void IrAMenu(){
+        GameManager.Reiniciar();
+        Destroy(GameManager.instance.gameObject);
+        Destroy(GenreManager.instance.gameObject);
         
     }
 }
