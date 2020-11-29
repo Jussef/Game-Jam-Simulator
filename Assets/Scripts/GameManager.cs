@@ -62,7 +62,7 @@ public class GameManager : MonoBehaviour
         habilitarClick = false;
         puntajeTotal += respuesta.puntaje;
         for (int i = 0; i < NUM_ENEMIGOS; ++i){
-            puntajesEnemigos[i] += Random.Range(10,25);
+            puntajesEnemigos[i] += Random.Range(1,8) * 5;
         }
         preguntas[preguntaActual].AgregarRespuesta(respuesta);
         if (preguntas[preguntaActual].EstaCompleta()){
