@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/CharacterChose.unity
     guid: b05399fc8464d5b45abbaf1058a517fd
   - enabled: 1
+    path: Assets/Scenes/SeleccionarGenero.unity
+    guid: 4a588030cdfd4234289cc07954317838
+  - enabled: 1
     path: Assets/Scenes/Partida.unity
     guid: d1e96a91db2521946b6f650582a7a315
   - enabled: 1

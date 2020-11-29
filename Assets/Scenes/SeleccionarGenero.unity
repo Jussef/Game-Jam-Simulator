@@ -238,46 +238,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: BotonGenero
       objectReference: {fileID: 0}
-    - target: {fileID: 3580241633842140057, guid: 69ac92f5b00e96e41ac592f26809a947,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3580241633842140057, guid: 69ac92f5b00e96e41ac592f26809a947,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3580241633842140057, guid: 69ac92f5b00e96e41ac592f26809a947,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3580241633842140057, guid: 69ac92f5b00e96e41ac592f26809a947,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3580241633842140057, guid: 69ac92f5b00e96e41ac592f26809a947,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: EscenaJuego
-      objectReference: {fileID: 0}
-    - target: {fileID: 3580241633842140057, guid: 69ac92f5b00e96e41ac592f26809a947,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: menu, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 3580241633842140057, guid: 69ac92f5b00e96e41ac592f26809a947,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Partida
-      objectReference: {fileID: 0}
-    - target: {fileID: 3580241633842140057, guid: 69ac92f5b00e96e41ac592f26809a947,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     - target: {fileID: 8153898038079984370, guid: 69ac92f5b00e96e41ac592f26809a947,
         type: 3}
       propertyPath: m_Pivot.x
@@ -476,46 +436,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: BotonGenero (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 3580241633842140057, guid: 69ac92f5b00e96e41ac592f26809a947,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3580241633842140057, guid: 69ac92f5b00e96e41ac592f26809a947,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3580241633842140057, guid: 69ac92f5b00e96e41ac592f26809a947,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3580241633842140057, guid: 69ac92f5b00e96e41ac592f26809a947,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3580241633842140057, guid: 69ac92f5b00e96e41ac592f26809a947,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: EscenaJuego
-      objectReference: {fileID: 0}
-    - target: {fileID: 3580241633842140057, guid: 69ac92f5b00e96e41ac592f26809a947,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: menu, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 3580241633842140057, guid: 69ac92f5b00e96e41ac592f26809a947,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Partida
-      objectReference: {fileID: 0}
-    - target: {fileID: 3580241633842140057, guid: 69ac92f5b00e96e41ac592f26809a947,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     - target: {fileID: 8153898038079984370, guid: 69ac92f5b00e96e41ac592f26809a947,
         type: 3}
       propertyPath: m_Pivot.x
@@ -712,46 +632,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BotonGenero (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3580241633842140057, guid: 69ac92f5b00e96e41ac592f26809a947,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3580241633842140057, guid: 69ac92f5b00e96e41ac592f26809a947,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3580241633842140057, guid: 69ac92f5b00e96e41ac592f26809a947,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3580241633842140057, guid: 69ac92f5b00e96e41ac592f26809a947,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3580241633842140057, guid: 69ac92f5b00e96e41ac592f26809a947,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: EscenaJuego
-      objectReference: {fileID: 0}
-    - target: {fileID: 3580241633842140057, guid: 69ac92f5b00e96e41ac592f26809a947,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: menu, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 3580241633842140057, guid: 69ac92f5b00e96e41ac592f26809a947,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Partida
-      objectReference: {fileID: 0}
-    - target: {fileID: 3580241633842140057, guid: 69ac92f5b00e96e41ac592f26809a947,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8153898038079984370, guid: 69ac92f5b00e96e41ac592f26809a947,
         type: 3}
@@ -1249,46 +1129,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BotonGenero (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3580241633842140057, guid: 69ac92f5b00e96e41ac592f26809a947,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3580241633842140057, guid: 69ac92f5b00e96e41ac592f26809a947,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3580241633842140057, guid: 69ac92f5b00e96e41ac592f26809a947,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3580241633842140057, guid: 69ac92f5b00e96e41ac592f26809a947,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3580241633842140057, guid: 69ac92f5b00e96e41ac592f26809a947,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: EscenaJuego
-      objectReference: {fileID: 0}
-    - target: {fileID: 3580241633842140057, guid: 69ac92f5b00e96e41ac592f26809a947,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: menu, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 3580241633842140057, guid: 69ac92f5b00e96e41ac592f26809a947,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Partida
-      objectReference: {fileID: 0}
-    - target: {fileID: 3580241633842140057, guid: 69ac92f5b00e96e41ac592f26809a947,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8153898038079984370, guid: 69ac92f5b00e96e41ac592f26809a947,
         type: 3}
