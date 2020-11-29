@@ -876,9 +876,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: 556cec4f974a14d06a10cbed5c32b6e6, type: 3}
-        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
-        m_MethodName: set_name
+      - m_Target: {fileID: 1444064751}
+        m_TargetAssemblyTypeName: menu, Assembly-CSharp
+        m_MethodName: EscenaJuego
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1849,9 +1849,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: 556cec4f974a14d06a10cbed5c32b6e6, type: 3}
-        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
-        m_MethodName: 
+      - m_Target: {fileID: 1444064751}
+        m_TargetAssemblyTypeName: menu, Assembly-CSharp
+        m_MethodName: EscenaJuego
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2020,6 +2020,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 55827cee90c6ff546997bd74e3f96750, type: 3}
+--- !u!114 &1444064751 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3483259049172692155, guid: 55827cee90c6ff546997bd74e3f96750,
+    type: 3}
+  m_PrefabInstance: {fileID: 1444064750}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 556cec4f974a14d06a10cbed5c32b6e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1620203120
 GameObject:
   m_ObjectHideFlags: 0
