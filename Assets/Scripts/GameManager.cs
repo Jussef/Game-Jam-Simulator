@@ -42,13 +42,13 @@ public class GameManager : MonoBehaviour
         }
 
         // * Para agregar una pregunta, debe tener exactamente 6 guiones bajos en cada puesto.
-        Pregunta[] prs = {
+        
+        preguntas = new List<Pregunta>(new Pregunta[]{
             new Pregunta("El personaje tendra que correr a traves de ______ y esquivar ______", 2),
             new Pregunta("El jugador puede ahorrar para mejorar su ______", 1),
             new Pregunta("Si el personaje consume ______, podra ______", 2),
             new Pregunta("La debilidad del villano es ______", 1)
-        };
-        preguntas = new List<Pregunta>(prs);
+        });
         preguntaActual = 0;
         finalizado = false;
         ActualizarText();
@@ -116,6 +116,14 @@ public class GameManager : MonoBehaviour
 
     public void sonarExplosion(){
         audioSource.Play();
+    }
+
+    public Pregunta obtenerPregunta(int i){
+        return preguntas[i];
+    }
+
+    public int numeroPreguntas(){
+        return preguntas.Count;
     }
 
 }

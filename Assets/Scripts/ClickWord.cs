@@ -50,7 +50,7 @@ public class ClickWord : MonoBehaviour
         new Respuesta("Rompecabezas",25),
         new Respuesta("Camara",25),
         new Respuesta("Mario",40),
-        new Respuesta("Futbol/Soccer",25),
+        new Respuesta("Futbol",25),
         new Respuesta("Arbitro",30),
         new Respuesta("Festival",25),
         new Respuesta("Fiesta",20),

@@ -16,7 +16,8 @@ public class GenreManager : MonoBehaviour
         "Comida",
         "Musical",
         "Animales",
-        "Jammer"
+        "Jammer",
+        "MMO"
     };
 
     List<string> generosSeleccionados;
