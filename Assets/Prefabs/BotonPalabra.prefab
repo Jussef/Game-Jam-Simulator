@@ -216,6 +216,8 @@ MonoBehaviour:
   aceleracionRotacion: 20
   velocidadMovimiento: 0.007
   numFramesMovimiento: 80
+  numFramesAntelacionAudio: 30
+  explosion: {fileID: 0}
 --- !u!1 &7836656067051760436
 GameObject:
   m_ObjectHideFlags: 0

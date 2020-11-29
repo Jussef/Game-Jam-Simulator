@@ -18,7 +18,10 @@ public class AnimarBoton : MonoBehaviour
     public float aceleracionRotacion;
     public float velocidadMovimiento;
     public float numFramesMovimiento;
+    public float numFramesAntelacionAudio;
     int vueltas;
+
+    public AudioClip explosion;
 
     // Start is called before the first frame update
     void Start()
@@ -40,6 +43,9 @@ public class AnimarBoton : MonoBehaviour
       if (moverse){
         rgb.angularVelocity -= aceleracionRotacion;
         ++vueltas;
+        if (numFramesMovimiento - vueltas == numFramesAntelacionAudio){
+          GameManager.instance.sonarExplosion();
+        }
         if (vueltas >= numFramesMovimiento){
           Finalizar();
         }

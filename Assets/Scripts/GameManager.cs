@@ -21,6 +21,8 @@ public class GameManager : MonoBehaviour
     const int NUM_ENEMIGOS = 3;
     public int puestoFinal;
 
+    AudioSource audioSource;
+
     private static System.Random rand = new System.Random();
 
     void Awake()
@@ -33,7 +35,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         instance = this;
-
+        audioSource = GetComponent<AudioSource>();
         puntajesEnemigos = new List<float>();
         for (int i = 0; i < NUM_ENEMIGOS; ++i){
             puntajesEnemigos.Add(0f);
@@ -56,6 +58,7 @@ public class GameManager : MonoBehaviour
     }
 
     public void RecibirRespuesta(Respuesta respuesta){
+        //sonarExplosion();
         habilitarClick = false;
         puntajeTotal += respuesta.puntaje;
         for (int i = 0; i < NUM_ENEMIGOS; ++i){
@@ -109,6 +112,10 @@ public class GameManager : MonoBehaviour
 
     public bool HaGanado(){
         return puestoFinal == 1;
+    }
+
+    public void sonarExplosion(){
+        audioSource.Play();
     }
 
 }
