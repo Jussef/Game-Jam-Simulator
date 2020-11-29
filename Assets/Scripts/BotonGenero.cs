@@ -7,13 +7,13 @@ using UnityEngine.SceneManagement;
 public class BotonGenero : MonoBehaviour
 {
     Transform transform;
-    Text txtGenero;
+    public Text txtGenero;
     string genero;
     // Start is called before the first frame update
     void Start()
     {
         transform =  GetComponent<Transform>();
-        txtGenero = transform.GetChild(0).gameObject.GetComponent<Text>();
+        //txtGenero = transform.GetChild(0).gameObject.GetComponent<Text>();
     }
 
     public void PonerTexto(string texto){

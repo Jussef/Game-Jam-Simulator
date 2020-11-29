@@ -123,6 +123,18 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &295304157 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8880174141352682941, guid: 69ac92f5b00e96e41ac592f26809a947,
+    type: 3}
+  m_PrefabInstance: {fileID: 4051762303738928796}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &417755745
 GameObject:
   m_ObjectHideFlags: 0
@@ -330,6 +342,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 417755746}
     m_Modifications:
+    - target: {fileID: -8548949842173642355, guid: 69ac92f5b00e96e41ac592f26809a947,
+        type: 3}
+      propertyPath: txtGenero
+      value: 
+      objectReference: {fileID: 820709107}
     - target: {fileID: 1617662777802295806, guid: 69ac92f5b00e96e41ac592f26809a947,
         type: 3}
       propertyPath: m_Name
@@ -528,6 +545,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 417755746}
     m_Modifications:
+    - target: {fileID: -8548949842173642355, guid: 69ac92f5b00e96e41ac592f26809a947,
+        type: 3}
+      propertyPath: txtGenero
+      value: 
+      objectReference: {fileID: 2051683571}
     - target: {fileID: 1617662777802295806, guid: 69ac92f5b00e96e41ac592f26809a947,
         type: 3}
       propertyPath: m_Name
@@ -640,6 +662,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69ac92f5b00e96e41ac592f26809a947, type: 3}
+--- !u!114 &820709107 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8880174141352682941, guid: 69ac92f5b00e96e41ac592f26809a947,
+    type: 3}
+  m_PrefabInstance: {fileID: 612067003}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &841769558
 GameObject:
   m_ObjectHideFlags: 0
@@ -782,6 +816,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 417755746}
     m_Modifications:
+    - target: {fileID: -8548949842173642355, guid: 69ac92f5b00e96e41ac592f26809a947,
+        type: 3}
+      propertyPath: txtGenero
+      value: 
+      objectReference: {fileID: 1371321994}
     - target: {fileID: 1617662777802295806, guid: 69ac92f5b00e96e41ac592f26809a947,
         type: 3}
       propertyPath: m_Name
@@ -995,6 +1034,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1371321994 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8880174141352682941, guid: 69ac92f5b00e96e41ac592f26809a947,
+    type: 3}
+  m_PrefabInstance: {fileID: 1229813745}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1403584630 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1617662777802295806, guid: 69ac92f5b00e96e41ac592f26809a947,
@@ -1325,6 +1376,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &2051683571 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8880174141352682941, guid: 69ac92f5b00e96e41ac592f26809a947,
+    type: 3}
+  m_PrefabInstance: {fileID: 725840731}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2073398538
 GameObject:
   m_ObjectHideFlags: 0
@@ -1483,6 +1546,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 417755746}
     m_Modifications:
+    - target: {fileID: -8548949842173642355, guid: 69ac92f5b00e96e41ac592f26809a947,
+        type: 3}
+      propertyPath: txtGenero
+      value: 
+      objectReference: {fileID: 295304157}
     - target: {fileID: 1617662777802295806, guid: 69ac92f5b00e96e41ac592f26809a947,
         type: 3}
       propertyPath: m_Name
